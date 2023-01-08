@@ -155,3 +155,12 @@ function timer() {
 
 
 }
+
+
+
+
+//    let mm = document.querySelector('.mm');
+  //  let ss = document.querySelector('.ss');
+
+
+//countdown
