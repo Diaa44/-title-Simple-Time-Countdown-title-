@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 body {
     display: flex;
     align-items: center;
@@ -12,14 +11,12 @@ body {
     height: 100vh;
     background-color: rgb(39, 39, 58);
 }
-
 .time {
     display: flex;
     align-items: center;
     gap: 30px;
     color: #fff;
 }
-
 .time .circle {
     position: relative;
     width: 150px;
@@ -35,7 +32,6 @@ body {
     height: 150px;
     transform: rotate(270deg);
 }
-
 .time .circle svg circle {
     width: 100px;
     height: 100px;
@@ -45,19 +41,16 @@ body {
     stroke-Linecap: round;
     transform: translate(5px, 5px);
 }
-
 .time .circle svg circle:nth-child(2) {
     stroke: var(--clr);
     stroke-dasharray: 440;
 }
-
 .time div {
     position: absolute;
     text-align: center;
     font-weight: 500;
     font-size: 1.6em;
 }
-
 .time div span {
     position: absolute;
     font-size: 0.3em;
@@ -66,13 +59,11 @@ body {
     text-transform: uppercase;
     transform: translateX(-50%) translateY(-1px);
 }
-
 .time .ap {
     position: relative;
     font-size: 1em;
     transform: translateY(-20px);
 }
-
 .dots {
     position: absolute;
     width: 100%;
@@ -81,7 +72,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .dots::before {
     content: '';
     position: absolute;
